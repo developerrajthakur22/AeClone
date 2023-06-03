@@ -1,0 +1,67 @@
+#cardList{
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+}
+.card{
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 5px;
+}
+
+
+  /* footer starts start */
+  .footerSection1{
+    margin-top: 90px;
+    border:2px solid #dfdddd;
+  } 
+  .footerbtndiv{
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+  }
+
+  .footerSection1 button{
+    border: 1px solid #ccc;
+    min-height: 60px;
+    margin: 0 10px;
+    padding: 20px 90px;
+    background-color: white;
+  }
+
+.table{
+    display: flex;
+    justify-content: center;
+}
+.table1{
+    /* border: 2px solid darkblue; */
+    width: 25%;
+    margin: 0;
+    font-size: 15px;
+    margin: 20px 20px;
+}
+.table1 a{
+    text-decoration: none;
+    margin: 0;
+    color: #24272a;
+}
+.table1 a:hover{
+    text-decoration: underline;
+}
+.table1 p{
+    margin-bottom: 2px;
+}
+
+
+/* footer */
+footer{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+footer img{
+    margin: 20px 0;
+    margin-left: 40px;
+    border-radius: 20px;
+}

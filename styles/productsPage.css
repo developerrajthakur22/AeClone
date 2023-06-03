@@ -1,0 +1,121 @@
+#main{
+    display: flex;
+}
+#products{
+    margin: auto;
+    padding: auto;
+    width: 80%;
+    /* border: solid red; */
+}
+#products .card-list{
+    margin: auto;
+    padding: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    /* border: solid blue; */
+}
+.card {
+display: block;
+/* border: solid black; */
+}
+.card-title,.card-price{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12;
+}
+.card-title{
+    color:#24272a;
+}
+.card-price .price{
+    color: #e51b23;
+}
+.card-price .aprice{
+    margin-left: 10px;
+    color: darkslategrey;
+    text-decoration: line-through;
+}
+.card-img{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.card-img img{
+    width: 100%;
+    /* position: relative; */
+}
+.card-body button{
+    margin: auto;
+    width: 150px;
+    height: 30px;
+    border: solid gray;
+    border-width: thin;
+    font-weight: bold;
+    font-size: 14;
+    border-radius: 15px;
+    background-color: white;
+    margin-top: 10px;
+   display: block;
+  
+}
+.card-body button:hover{
+    border: solid gray;
+    border-width: medium;
+}
+#heart{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    cursor: pointer;
+    
+}
+.add-prod{
+    display: block;
+    margin: 0 auto;
+    /* margin-left: 90px; */
+    background-color: none;
+    position: absolute;
+    bottom: 20px;
+    font-size: 12px;
+    width: 150px;
+    height: 30px;
+    border: solid gray;
+    border-width: thin;
+    font-weight: bold;
+    font-size: 14;
+    border-radius: 15px;
+    background-color: white;
+}
+.add-prod:hover{
+    border: solid gray;
+    border-width: medium;
+}
+#pagination{
+    float:right;
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+#pagination button{
+   margin-right:10px;
+   border: none;
+   background-color: white;
+   font-size: 20px;
+   font-weight: bold;
+}
+#pagination button:hover{
+    color: gray;
+}
+
+#male{
+    font-size: 16px;
+    font-family: bold;
+}

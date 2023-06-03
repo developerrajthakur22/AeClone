@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    height: 69vh;
+    width: 40%;
+    margin: auto ;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width:70%;
+}
+input{
+    width: 60%;
+    height: 30px;
+    margin: 7px;
+    text-align: center;
+    font-size: 17px;
+}
+#submit{
+    width: 70px;
+    margin-bottom: 40px;
+}
+a{
+    text-align: center;
+    margin-left: 250px;
+}

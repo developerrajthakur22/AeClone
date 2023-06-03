@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>See Product</title>
+
+    <link rel="stylesheet" href="/styles/showProduct.css">
+</head>
+<body>
+    
+
+    <nav>
+        <a href="./adminHomePage.html">Home</a>
+        <a href="/showProduct.html">Products</a>
+        <a href="/adminProduct.html">Add Product</a>
+        <a href="./pendingOrder.html">Unprocessed order</a>
+        <a href="./ccadmin.html">Customer Complain</a>
+        <div><span id="adminuser"></span></div>
+    </nav>
+<br>
+
+
+    <table border="1">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Image</th>
+				<!-- <th>Hover Image</th> -->
+				<th>Category</th>
+				<th>Gender</th>
+				<th>Price</th>
+				<th>Date</th>
+				<th>Shipping</th>
+				<th>Description</th>
+				<th>Size</th>
+				<th>Discount</th>
+				<th>Quantity</th>
+                <th>Edit</th>
+                <th>Delete</th>
+			</tr>
+		</thead>
+		<tbody id="product_table"></tbody>
+	</table>
+    <!-- <div id="products">
+		 Products will be dynamically generated here -->
+	</div>
+
+	<div id="pagination">
+		<!-- Pagination links will be dynamically generated here -->
+	</div> 
+
+</body>
+
+
+
+
+
+<script src="/scripts/showProduct.js"></script>
+
+
+
+
+
+</html>

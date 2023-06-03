@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    background-color: black;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 550;
+    transition: all 0.3s;
+}
+
+nav a:hover {
+    font-size: 25px;
+    color: red;
+}
+
+nav div {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: red;
+    height: 10vh;
+    width: 200px;
+}
+#cont{
+    color: white;
+}
+#b1{
+    display: flex;
+    justify-content: space-evenly;
+}

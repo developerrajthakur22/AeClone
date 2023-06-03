@@ -1,0 +1,110 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#product{
+    width: 100%;
+   
+    display: flex;
+    grid-template-columns: 1fr,2fr;
+    /* gap: 10px; */
+}
+
+#prod-image{
+    width: 70%;
+   padding: 5px;
+}
+#prod-image img{
+    width: 45%;
+    margin: auto;
+}
+#all-details{
+    width: 30%;
+    padding: 10px;
+    
+}
+#details{
+    width: 95%;
+    margin: auto;
+}
+ .aprice{
+    font-size: 14px;
+    font-weight: bold;
+ }
+ .aaprice{
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: line-through;
+    color: gray;
+ }
+ .dprice{
+    font-size: 16px;
+    font-weight: bold;
+    color: #e51b23;
+ }
+ .discount{
+    margin-left: 40px;
+    font-size: 12px;
+    border: none;
+    height: 20px;
+    width: 80px;
+    border-radius: 20px;
+    color: white;
+    background-color: #e51b23;
+ }
+ .pqty{
+    display: inline;
+    margin-left: 50px;
+    width: 150px;
+    height: 50px;
+ }
+ .pqty button{
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.pqty .desc{
+    margin-right:20px;
+}
+ .pqty .inc{
+    margin-left:20px;
+}
+.sel-size{
+    width: 150px;
+    height: 30px;
+    font-size: 14px;
+    
+}
+.bag{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.wish{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 40px;
+    border: solid black;
+    border-width: thin;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.card-img{
+    display: flex;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>addProduct</title>
+    <link rel="stylesheet" href="/styles/product.css">
+</head>
+<body>
+
+    <nav>
+        <a href="./adminHomePage.html">Home</a>
+        <a href="/showProduct.html">Products</a>
+        <a href="./adminProduct.html">Add Product</a>
+        <a href="./pendingOrder.html">Unprocessed order</a>
+        <a href="./ccadmin.html">Customer Complain</a>
+        <div><span id="adminuser"></span></div>
+    </nav>
+    
+
+
+<div id="add_products">
+    <h1>Admin you can add products from here</h1>
+</div>
+
+    <!-- form for adding product -->
+<div id="for_form">
+    <form action="" id="product_form">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" class="forms_class"><br>
+<br>
+        <label for="image1">Image of product</label>
+        <input type="url" name="image1" id="image1" class="forms_class"><br>
+        
+<br>
+        <label for="image2">Image show while hover</label>
+        <input type="url" name="image2" id="image2" class="forms_class"><br>
+<br>
+
+        <label for="category">category</label>
+        <select name="category" id="select_category" class="forms_class">
+            <option value="shirt">Shirt</option>
+            <option value="jeans">Jeans</option>
+            <option value="shorts">Shorts</option>
+            <option value="Sneakers">Sneakers</option>
+            <option value="tops">Tops</option>
+        </select><br>
+   <br>     
+
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender" class="forms_class">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br>
+<br>
+
+        <label for="price">Price</label>
+        <input type="number" id="price" class="forms_class"><br>
+
+    <br>    
+
+        <label for="date">Add Date</label>
+        <input type="date" name="date" id="date" class="forms_class"><br>
+
+<br>
+
+        <label for="shipping">Shipping</label>
+        <input type="number" class="forms_class" id="shipping"><br>
+     <br>   
+
+        <label for="description">description</label>
+        <input type="text" name="" id="description" class="forms_class"><br>
+<br>
+
+        <label for="size">Size</label>
+        <select name="size" id="select_size" class="forms_class">
+            <option value="xs">XS</option>
+            <option value="s">S</option>
+            <option value="m">M</option>
+            <option value="xl">XL</option>
+        </select><br>
+        
+
+<br>
+        <label for="discount">Discount</label>
+        <input type="number" name="" id="discount" class="forms_class"><br>
+<br>
+
+        <label for="quantity">Quantity</label>
+        <input type="number" id="quantity" class="forms_class">
+
+
+        <button type="submit" id="submit">Submit</button>
+        <button type="submit" id="submit_edit">Edit</button>
+        
+
+    </form>
+
+
+</div>
+
+</body>
+<script src="/scripts/products.js"></script>
+</html>

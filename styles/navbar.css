@@ -1,0 +1,165 @@
+/* navbar start */
+
+.navTopSection{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #f6f6f6;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+}
+.navTopSection>div:nth-child(1){
+    /* border: 2px solid firebrick; */
+    width: 24%;
+    margin-left: 5%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    /* line-height: 2.4; */
+    display: flex;
+}
+.aerie{
+    /* margin-top: 1px; */
+    margin-left: 9px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+.navTopSection>div:nth-child(1) a{
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+
+.navTopSection>div:nth-child(1) a:hover{
+    background-color: aliceblue;
+    color: #24272a;
+}
+
+.navTopSection>div:nth-child(2){
+    /* border: 2px solid forestgreen; */
+    width: 33%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navTopSection>div:nth-child(2) a span{
+    line-height: 1.7;
+    font-size: 30px;
+    color: black;
+}
+
+/* search */
+#searchBox{
+    height: 30px;
+    margin-top: 8px;
+    width: 220px;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+.searchbtn{
+    border: none;
+    background-color: #f6f6f6;
+    cursor: pointer;
+}
+
+/* top section ends here */
+
+.centerLogo{
+    width: 180px;
+    height: 80px;
+    display: block;
+    margin: 1% auto;
+    border-radius: 20px;
+}
+
+.carousel {
+    margin-top: 0px;
+    height: 80px;
+    width: 100%;
+    z-index: 999; 
+    position: relative;
+    overflow:hidden; 
+}
+.carousel img{
+    z-index: 1099;
+}
+
+/* navbottom */
+.navBottom{
+    border-bottom: 1px solid #dfdddd;
+    background-color: white;
+    width: 100%;
+    margin-top: 10px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    /* position: sticky;
+    top:200px;
+    z-index: 999; */
+}
+.navBottom button{
+    background-color: white;
+    color: #24272a;;
+    border: none;
+    font-size: 13px;
+    letter-spacing: 0.8px;
+    height: 40px;
+    margin: 0 14px;
+    margin-bottom: -8px;
+} 
+.navBottom button:hover{
+    border-bottom: 3px solid black;
+}
+
+/* drop down */
+.dropdown{
+    margin-top: 15px; 
+    width: 110%;
+    position: absolute;
+    margin-left: -26%;
+    z-index: 999;
+    display: none;  
+}
+
+.today:hover .dropdown{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: white;
+    animation-name: dropdown;
+    animation-duration: 0.3s;
+}
+
+@keyframes dropdown {
+    0%   {
+        height: 0px;
+    }
+    100% { 
+         height: 37%;
+    } 
+  }
+
+.ddsection{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: left;
+    margin: 0 25px;
+}
+
+.ddsection a{
+    padding: 5px 0;
+    text-decoration: none;
+    color: #24272a;
+}
+.ddsection a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+/* navbar ends here */

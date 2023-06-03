@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Home Page</title>
+    <link rel="stylesheet" href="./styles/adminHomePage.css">
+</head>
+
+<body>
+    <nav>
+        <a href="./adminHomePage.html">Home</a>
+        <a href="#">Products</a>
+        <a href="./adminProduct.html">Add Product</a>
+        <a href="./pendingOrder.html">Unprocessed order</a>
+        <a href="./ccadmin.html">Customer Complain</a>
+        <div><span id="adminuser"></span></div>
+    </nav>
+    <div id="cont">
+        <div id="body-cont">
+            <div id="headings">
+                <div>
+                    <button id="sltoh">Sort Low to High</button>
+                    <button id="shtol">Sort High to Low</button>
+                </div>
+                <div>
+                    <h4>Order Pending</h4>
+                    <h1><span id="pending"></span></h1>
+                </div>
+                <div>
+                    <h4>Order Cancelled</h4>
+                    <h1><span id="cancel"></span></h1>
+                </div>
+                <div>
+                    <h4>Order Processing</h4>
+                    <h1><span id="process"></span></h1>
+                </div>
+                <div>
+                    <h4>Total Income</h4>
+                    <h1><span id="income"></span></h1>
+                </div>
+        
+            </div>
+            <div id="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Order ID</th>
+                            <th>Payment Type</th>
+                            <th>Order Date</th>
+                            <th>Delivery Date</th>
+                            <th>Product ID</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+        
+                    </tbody>
+                </table>
+            </div>
+            <div id="btnwrap"></div>
+        </div>
+      
+    </div>
+</body>
+<script src="./scripts/adminHomePage.js"></script>
+
+</html>

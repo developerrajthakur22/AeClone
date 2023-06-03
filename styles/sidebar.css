@@ -1,0 +1,142 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.side-bar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .side-bar a, .dropdown-btn {
+    /* padding: 6px 8px 6px 16px; */
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: solid #111;
+    border-bottom: #111;
+    display: block;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  .side-bar a:hover, .dropdown-btn:hover {
+    color: #000000;
+  }
+  label{
+    margin-left: 8px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  #size{
+    margin-top: 10px;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  .active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  .dropdown-container {
+    display: none;
+    margin-top: 10px;
+    margin-bottom:20px ;
+    background-color: #ffffff;
+    padding-left: 8px;
+  }
+  .fa-plus {
+    float: right;
+    padding-right: 8px;
+  }
+  @media screen and (max-height: 450px) {
+    .side-bar {padding-top: 15px;}
+    .side-bar a {font-size: 18px;}
+  } 
+  #products {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  } 
+
+  #sel-gen{
+    border: none;
+    width: 200px;
+    height: 30px;
+  }
+  #sel-gen option{
+    border: none;
+    height:50px;
+  }
+  #malecat{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    width: 200px;
+    border-top: #111;
+    border-bottom: #111;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  #male #female{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  #sel-gen{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  #cat{
+    margin-top: 10px;
+    /* margin-bottom: 20px; */
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  #price{
+    margin-top: 10px;
+    /* margin-bottom: 20px; */
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  #sustain{
+    margin-top: 10px;
+    /* margin-bottom: 20px; */
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  #clr{
+    border: none;
+    width: 20px;
+    border-radius: 50%;
+  }
+  #sort,#sort1, #sort2{
+    margin-top: 10px;
+    /* margin-bottom: 20px; */
+    width: 20px;
+    height: 20px;
+  }

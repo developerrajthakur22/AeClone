@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 35%;
+    margin: auto;
+    margin-top: 80px;
+    align-items: center;
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+h1{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+input {
+    width: 60%;
+    height: 30px;
+    margin: 7px;
+    text-align: center;
+    font-size: 17px;
+}
+#sign{
+    width: 80px;
+    margin-top: 15px;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+}
+a{
+    margin-left: 200px;
+    margin-top: 10px;
+}
